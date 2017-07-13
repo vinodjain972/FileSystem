@@ -1,0 +1,4 @@
+Filesystem\filesystem\io\ErrorMessage.class
+Filesystem\filesystem\io\FileNotFoundException.class
+Filesystem\filesystem\io\FileNotFoundExceptionMapper.class
+Filesystem\filesystem\io\MyResource.class
