@@ -47,7 +47,7 @@ public class FileSystemMockitoTest {
 	public void testUpdateFile() throws FileNotFoundException {
 		when(myResourceMockService.updateFile("welcome.txt", " updated")).thenReturn("[created new File updated]");
 		Assert.assertEquals(myResource.updateFile("welcome.txt", " updated"), "[created new File updated]");
-	//	test verify(myResourceMockService, times(1)).updateFile("welcome.txt", "[created new File updated]");
+	//	test on et branch verify(myResourceMockService, times(1)).updateFile("welcome.txt", "[created new File updated]");
 
 	}
 
